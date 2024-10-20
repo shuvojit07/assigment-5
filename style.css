@@ -1,0 +1,113 @@
+.header-section{
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.navbar-div{
+    background: #F9F7F3;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.blog-button{
+    padding: 10px 30px;
+    background: #B4F461;
+    color: #111111;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.logo-part{
+    display: flex;
+    gap: 7px;
+}
+.logo-text{
+    color: #111111;
+
+}
+
+.my-blance{
+    gap: 7px;
+    color: #111111;
+    opacity: 70%;
+    font-weight: bold;
+}
+
+/* header end */
+
+/* main start */
+    /* button section */
+    .batttun-section{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 25px;
+    }
+
+    .btn-donation{
+        background: #B4F461;
+        padding: 10px 30px;
+        color: #111111;
+        border-radius: 8px;
+    }
+    /* button section end */
+
+    /* main part */
+    .main-section{
+        
+        padding: px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+
+    .part-1{
+        display: grid;
+        grid-template-columns: 1;
+        justify-content: center;
+        justify-content: space-between;
+        border: 1px solid #353535;
+        padding: 15px;
+        margin-top: 45px;
+        gap: 30px;
+        
+        
+    }
+
+    .part-1-text{
+        padding: 10px;
+       
+    }
+
+
+    .noakhali-img{
+        width: 100%;
+        height: 100%;
+        border-radius: 2px ;
+    }
+
+    .noakhali-balance-img{
+         
+        display: flex;
+        gap: 7px;
+        background: antiquewhite;
+        width: 110px;
+        justify-content: center;
+        border-radius: 8px;
+
+    }
+
+
+    .donate-ammout{
+        width: 70%;
+    }
+
+/* main end */
+
+
