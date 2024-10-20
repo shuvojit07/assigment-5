@@ -22,7 +22,7 @@ document.getElementById('noakhali-donate')
     
         const p = document.createElement('p');
         let currentdate = new Date();
-        p.innerText = `${addMoney} Taka is Donated for famine-2024 at Feni, Bangladesh
+        p.innerText = `${addMoney} Taka is Donated for famine-2024 at Noakhali, Bangladesh
         ${currentdate}
         `
         document.getElementById('histori-section').appendChild(p);
@@ -96,7 +96,7 @@ document.getElementById('Quota-movement-donat')
 
    const p = document.createElement('p');
    let currentdate = new Date();
-   p.innerText = `${addMoney} Taka is Donated for famine-2024 at Feni, Bangladesh
+   p.innerText = `${addMoney} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh
    ${currentdate}
    `
    document.getElementById('histori-section').appendChild(p);
