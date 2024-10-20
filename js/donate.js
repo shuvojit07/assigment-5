@@ -18,6 +18,16 @@ document.getElementById('noakhali-donate')
 
      alert('Congratulation ');
 
+        //  add history
+    
+        const p = document.createElement('p');
+        let currentdate = new Date();
+        p.innerText = `${addMoney} Taka is Donated for famine-2024 at Feni, Bangladesh
+        ${currentdate}
+        `
+        document.getElementById('histori-section').appendChild(p);
+
+
 })
 
 // 
@@ -44,6 +54,15 @@ document.getElementById('fani-donat')
 
      alert('Congratulation ');
 
+    //  add history
+
+    const p = document.createElement('p');
+    let currentdate = new Date();
+    p.innerText = `${addMoney} Taka is Donated for famine-2024 at Feni, Bangladesh
+    ${currentdate}
+    `
+    document.getElementById('histori-section').appendChild(p);
+
 })
 
 
@@ -68,5 +87,21 @@ document.getElementById('Quota-movement-donat')
      document.getElementById('my-balance').innerText = myNewbalance;
 
      alert('Congratulation ');
+
+    //  
+
+
+
+        //  add history
+
+   const p = document.createElement('p');
+   let currentdate = new Date();
+   p.innerText = `${addMoney} Taka is Donated for famine-2024 at Feni, Bangladesh
+   ${currentdate}
+   `
+   document.getElementById('histori-section').appendChild(p);
+   
+   
+
 
 })

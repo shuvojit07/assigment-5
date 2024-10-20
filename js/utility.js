@@ -10,3 +10,16 @@ function getTextFieldValueById(id){
     return textNumber ;
     
 }
+
+function showSectionById(id){
+    document.getElementById('main-section').classList.add('hidden');
+    document.getElementById('histori-section').classList.add('hidden');
+
+
+    // show 
+
+    document.getElementById(id).classList.remove('hidden');
+
+
+
+}

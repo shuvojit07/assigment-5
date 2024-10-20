@@ -5,6 +5,7 @@
     position:-webkit-sticky;
     position: sticky;
     top: 0;
+    
 }
 .navbar-div{
     background: #F9F7F3;
@@ -59,7 +60,7 @@
     /* button section end */
 
     /* main part */
-    .main-section{
+    .main-section-1{
         
         padding: px;
         margin-left: 150px;
@@ -105,9 +106,17 @@
 
 
     .donate-ammout{
-        width: 70%;
+        width: 80%;
+        height: 30px;
+        
     }
 
 /* main end */
-
+/* share button  */
+.donate-button{
+    padding: 5px 150px;
+    background: #B4F461;
+    border-radius: 5px;
+    font-weight: 600;
+}
 
